@@ -3,11 +3,12 @@ const helloWorld = function() {
     return "Hello, World!";
 }
 
-
+//sayHello function
 const sayHello = function(){
-    return "say, Hello!";
+    return "";
 }
 
+//isOdd function
 const isOdd = function(){
     return "is, Odd!";
 }
