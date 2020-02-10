@@ -1,14 +1,18 @@
-// helloWorld function 
+//helloWorld function
 const helloWorld = function() {
     return "Hello, World!";
+};
+
+
+
+
+
+function sayHello(input) {
+    if (input === "Alex") {
+        return ("Hello, Alex!")
+    } else {
+        return ("Hello, Jane!")
+    }
+
 }
 
-//sayHello function
-const sayHello = function(){
-    return "";
-}
-
-//isOdd function
-const isOdd = function(){
-    return "is, Odd!";
-}

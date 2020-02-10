@@ -13,6 +13,8 @@ describe('helloWorld', function () {
         expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+
 //Unit tests for the sayHello function
 describe('sayHello', function () {
     it('should be a defined function', function () {
@@ -23,12 +25,36 @@ describe('sayHello', function () {
         });
     });
 
-//Unit tests for the isOdd function
-describe('isOdd', function () {
+
+//Unit tests for the sayHelloJane function
+describe('sayHello("Jane")', function () {
     it('should be a defined function', function () {
-        expect(typeof isOdd).toBe('function');
+        expect(typeof sayHello).toBe('function');
     });
-    it('should return a string when called', function(){
-        expect(typeof isOdd).toBe('function');
+    it('should return a string when called', function () {
+        expect(typeof sayHello()).toBe("string");
+    });
+});
+
+
+//Unit tests for the sayHelloAlex function
+
+describe('sayHello("Alex")', function () {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe('function');
+    });
+    it('should return a string when called', function () {
+        expect(typeof sayHello()).toBe("string");
+    });
+});
+
+//Unit tests for sayHelloPat function
+
+describe('sayHello("Pat")', function () {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe('function');
+    });
+    it('should return a string when called', function () {
+        expect(typeof sayHello()).toBe("string");
     });
 });
